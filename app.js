@@ -16,3 +16,7 @@ function calculate() {
 function Clear() {
     outputScreen.value = " ";
 }
+
+function del() {
+    outputScreen.value = outputScreen.value.slice(0, -1)
+}
